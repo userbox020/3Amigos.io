@@ -30,9 +30,9 @@ const Index = () => {
             transition={{ duration: 0.8 }}
           >
 
-            <div className="bg-green-500 bg-opacity-75 px-8 py-4 rounded-lg text-center mt-[-175px]">
+            <div className="bg-green-500 bg-opacity-75 px-8 py-4 text-center mt-[-175px]">
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
-                Welcome to Tres Amigos
+                Welcome to Amigos
               </h1>
 
               <p className="text-xl md:text-2xl text-white">
@@ -87,7 +87,7 @@ const Index = () => {
             <motion.img
               src="/image/mascot.png"
               alt="Tres Amigos Mascot"
-              className="w-48 h-48 mb-8 animate-float"
+              className="w-48 h-48 mb-8 animate-float rounded-lg"
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ type: "spring", stiffness: 260, damping: 20 }}
