@@ -1,6 +1,8 @@
 
 import { motion } from "framer-motion";
 import { Users, PartyPopper, Target, ArrowRight, Github, Twitter, MessageSquare } from "lucide-react";
+import { FaDiscord, FaSquareXTwitter, FaGithub } from "react-icons/fa6";
+import { BiLogoTelegram } from "react-icons/bi";
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
@@ -13,8 +15,13 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-desert-50 to-desert-100 -z-10" />
+      <section
+        className="relative h-screen flex items-center justify-center overflow-hidden bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/image/background.png')" }}
+      >
+      {/* <section className="relative h-screen flex items-center justify-center overflow-hidden">
+         <div className="absolute inset-0 bg-gradient-to-b from-desert-50 to-desert-100 -z-10" /> */}
+        <div className="absolute inset-0  -z-10" />
         <div className="container mx-auto px-4">
           <motion.div 
             className="flex flex-col items-center text-center gap-6"
@@ -22,64 +29,86 @@ const Index = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
+
+            <div className="bg-green-500 bg-opacity-75 px-8 py-4 rounded-lg text-center mt-[-175px]">
+              <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
+                Welcome to Tres Amigos
+              </h1>
+
+              <p className="text-xl md:text-2xl text-white">
+                Where the community comes first, and the fiesta never ends!
+              </p>
+
+              {/* Social Media Links */}
+              <motion.div 
+                className="flex items-center justify-center gap-6 mt-6"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.5, duration: 0.6 }}
+              >
+                <a 
+                  href="https://github.com/userbox020/3Amigos.io" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-gray-200 transition-colors"
+                >
+                  <FaGithub size={24} />
+                </a>
+                <a 
+                  href="https://x.com/3amigos_SOL" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-gray-200 transition-colors"
+                >
+                  <FaSquareXTwitter size={24} />
+                </a>
+                <a 
+                  href="https://discord.gg/tTzUATv9" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-gray-200 transition-colors"
+                >
+                  <FaDiscord size={24} />
+                </a>
+                <a 
+                  href="https://t.me/+lyCAoLcOAf8wNmI0" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-gray-200 transition-colors"
+                >
+                  <BiLogoTelegram size={24} />
+                </a>                
+              </motion.div>
+
+
+            </div>
+
+
             <motion.img
-              src="/lovable-uploads/2edc9161-f34c-4cd7-bad1-756c42dcc7c8.png"
+              src="/image/mascot.png"
               alt="Tres Amigos Mascot"
               className="w-48 h-48 mb-8 animate-float"
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ type: "spring", stiffness: 260, damping: 20 }}
             />
-            <h1 className="text-5xl md:text-7xl font-bold text-gradient mb-4">
-              Welcome to Tres Amigos
-            </h1>
-            <p className="text-xl md:text-2xl text-gray-700 max-w-2xl mb-8">
-              Where the community comes first, and the fiesta never ends!
-            </p>
+            
+
+
+
             <Button 
               className="bg-desert-500 hover:bg-desert-600 text-white px-8 py-6 text-lg rounded-full hover-trigger"
             >
               Join the Adventure <ArrowRight className="ml-2" />
             </Button>
             
-            {/* Social Media Links */}
-            <motion.div 
-              className="flex gap-6 mt-8"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.5, duration: 0.6 }}
-            >
-              <a 
-                href="https://github.com/tresamigos" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-desert-500 hover:text-desert-600 transition-colors"
-              >
-                <Github size={24} />
-              </a>
-              <a 
-                href="https://twitter.com/tresamigos" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-desert-500 hover:text-desert-600 transition-colors"
-              >
-                <Twitter size={24} />
-              </a>
-              <a 
-                href="https://discord.gg/tresamigos" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-desert-500 hover:text-desert-600 transition-colors"
-              >
-                <MessageSquare size={24} />
-              </a>
-            </motion.div>
+
           </motion.div>
         </div>
       </section>
 
       {/* Story Section */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-gradient-to-b from-desert-50 to-desert-100">
         <div className="container mx-auto px-4">
           <motion.div 
             className="max-w-4xl mx-auto text-center"
