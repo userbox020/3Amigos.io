@@ -8,6 +8,14 @@ Concept idea of 3Amigos Website
 **Discord**: https://discord.gg/tTzUATv9
 **Telegram**: https://t.me/+lyCAoLcOAf8wNmI0
 
+| Platform  | Link |
+|-----------|------|
+| **URL**   | [https://amigos-from-solana.web.app/](https://amigos-from-solana.web.app/) |
+| **X**     | [https://x.com/3amigos_SOL](https://x.com/3amigos_SOL) |
+| **Discord** | [https://discord.gg/tTzUATv9](https://discord.gg/tTzUATv9) |
+| **Telegram** | [https://t.me/+lyCAoLcOAf8wNmI0](https://t.me/+lyCAoLcOAf8wNmI0) |
+
+
 ## How can I edit this code?
 
 There are several ways of editing your application.
