@@ -4,6 +4,9 @@ Concept idea of 3Amigos Website
 ## Project info
 
 **URL**: https://amigos-from-solana.web.app/
+**X**: https://x.com/3amigos_SOL
+**Discord**: https://discord.gg/tTzUATv9
+**Telegram**: https://t.me/+lyCAoLcOAf8wNmI0
 
 ## How can I edit this code?
 
@@ -49,8 +52,9 @@ pnpm dev
 
 This project is built with .
 
-- NextJS
-- React
+- Solana
+- Metaplex-Foundation
+- NextJS/React
 - TypeScript
 - Tailwind CSS
 
