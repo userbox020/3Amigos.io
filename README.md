@@ -3,11 +3,6 @@ Concept idea of 3Amigos Website
 
 ## Project info
 
-**URL**: https://amigos-from-solana.web.app/
-**X**: https://x.com/3amigos_SOL
-**Discord**: https://discord.gg/tTzUATv9
-**Telegram**: https://t.me/+lyCAoLcOAf8wNmI0
-
 | Platform  | Link |
 |-----------|------|
 | **URL**   | [https://amigos-from-solana.web.app/](https://amigos-from-solana.web.app/) |
